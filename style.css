@@ -1,0 +1,71 @@
+/*==== estilo toda la pagina ====*/
+body {
+
+    font-family: "trebuchet ms", Arial, Helvetica, sans-serif ;
+    background-color: rgb(243, 238, 243);
+    margin: 0;
+    color: #333;
+    line-height: 1.6;
+    font-size: 150%;
+
+}
+
+/*==== estilo de navegacion  ====*/
+nav {
+    background-color: #4dbb50;
+    color: rgb(198, 165, 165);
+    padding: 15px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline-block;
+    margin-right: 0.15px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*==== estilo de encabezado ====*/
+h1{
+    font-family: "goorgia", serif;
+    color: yellowgreen;
+    text-align: center;
+    margin: 30px;
+}  
+/*==== principal ====*/
+main {
+    padding: 20px 40px;
+    background-color: rgb(223, 201, 201);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+/*==== parrafos ====*/
+p {
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+/*==== galeria ====*/
+main img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 2px solid #930404;
+}
+/*==== estilo de pie de pagina ====*/
+footer {
+    background-color: #4dbb50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+   font-size: 0.8em;
+}
